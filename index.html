@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>To do App</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <form id="new-task-form">
+      <div id="task-list-wrapper">
+        
+        <div class="task">
+          <label for="task" class="primary">Task</label>
+          <input type="text" id="task" required/>
+        </div>
+<!-- 
+        <div class="task">
+          <label for="deadline" class="primary">Deadline</label>
+          <input type="date" id="deadline" required/>
+        </div>
+
+        <div class="task">
+          <label for="category" class="primary">Category</label>
+          <select id="category">
+            <option value="" disabled selected></option>
+            <option value="Book">Work</option>
+            <option value="Article">Home</option>
+            <option value="Blog Post">Family</option>
+          </select>
+        </div>
+
+        <div class="task">
+            <label for="note" class="primary">Note</label>
+            <input type="text" id="note" required/>
+        </div> -->
+
+      </div>
+      <input type="button" onclick='taskList()' value="Submit"/>
+    </form>
+
+    <h1>To do</h1>
+    <ul id="task-list"></ul>
+
+  </body>
+</html>
